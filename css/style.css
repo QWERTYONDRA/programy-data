@@ -106,8 +106,9 @@ li:hover{
     text-decoration: none;
     font-size: large;
     position: fixed;
-    border: 20px solid #0a0a0a;
+    border: 20px solid;
     background-color: #0a0a0a;
+    border-color: #0a0a0a;
     border-radius: 20px;
     top: 5px;
     left: 5px;

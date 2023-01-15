@@ -6,68 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operační systémy</title>
-<link rel="stylesheet" href="..\css\style.css">
-<body style="background-color: rgb(63, 63, 63)">
+<link rel="stylesheet" href="../css/style.css">
+<body>
     <header>
-        <h1 style="color: rgb(195, 195, 195);">Operační systémy</h1>
+        <a href="../index.html" class="home-button" 
+        style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Home</a>
+        <h1>Operační systémy</h1>
     </header>
-    <main style="color: rgb(196, 196, 196);">
-        <h2>Operační systémy</h2>
+    <main>
+        <h2><b>Operační systémy</b></h2>
         <p><b>Programové vybavení (software)</b> je podmínkou využití technického vybavení </p>
         <a href="https://en.wikipedia.org/wiki/Hardware">(hardware)</a>. V raných dobách počítačové éry byly programy vytvářeny vždy pro
         konkrétní hardware. V okamžiku, kdy počítače začaly být produkovány ve větších sériích, objevila se i potřeba
         vývoje speciálních systémových programů,
         které by obstaraly základní operace s hardwarem a nabídly prostředí pro běh
         aplikací, tj. programů určených pro konkrétní účely.
-        <h2>Charakteriskitka OS</h2>
-        <p>Základním programovým vybavením počítačů (a jim podobných zařízení) jsou operační systémy (<a href="https://ondrahonus.xyz"><abbr title="Operation System">OS</abbr></a>
+        <img src="../img/linux.png" alt="Linux" width="120"> <img src="../img/win.png" alt="Windows" width="120">
+        <h2 id="charakteristika">Charakteriskitka OS</h2>
+        <p>Základním programovým vybavením počítačů (a jim podobných zařízení) jsou operační systémy (<a href="https://cs.wikipedia.org/wiki/Opera%C4%8Dn%C3%AD_syst%C3%A9m"><abbr title="Operation System">OS</abbr></a>
             Jejich nejdůležitější funkcí je zajištění řízení hardware. To má na starosti jádro systému, které tvoří
             subsystémy pro správu procesoru, paměti, diskových
             médií a dalších zařízení. Jádro pro své operace vyžaduje instalaci
-            ovladačů jednotlivých zařízení (<mark>drivers</mark>) a s jejich pomocí zpřístupňuje
+            ovladačů jednotlivých zařízení (drivers) a s jejich pomocí zpřístupňuje
             technické vybavení běžícím procesům.</p>
             <h2>Aplikační rozhraní</h2>
-        <p>Nezbytnou součástí operačních systémů je aplikační rozhraní (API
+        <p>Nezbytnou součástí operačních systémů je aplikační rozhraní (<a href="https://cs.wikipedia.org/wiki/API">API</a>
             - Application Programming Interface), které nabízí programátorům
             prostředky pro vývoj aplikací pro daný systém. Uživatelské rozhraní slouží k ovládání OS a k spouštění
             aplikací. Zatímco starší OS se
-            ovládaly častěji prostřednictvím příkazového řádku (CLI - Command
-            Line Interface), moderní systémy poskytují grafické uživatelské rozhraní (GUI - Graphic User Interface)
+            ovládaly častěji prostřednictvím příkazového řádku (<a href="https://cs.wikipedia.org/wiki/CLI">CLI</a> - Command
+            Line Interface), moderní systémy poskytují grafické uživatelské rozhraní (<a href="https://cs.wikipedia.org/wiki/GUI">GUI</a> - Graphic User Interface)
             založené na oknech a grafických
             prvcích.</p>
-            <h2>Historie</h2>
-        <p>Na počátku vývoje moderních OS byl víceúlohový a víceuživatelský systém
+            <h2 id="historie">Historie</h2>
+        <p>Na počátku vývoje moderních <abbr title="Operating system">OS</abbr> byl víceúlohový a víceuživatelský systém
             UNIX, který se od 70. let používal v sálových počítačích i minipočítačích.
             Jeho principy využily i další OS. V 80. letech minulého století si vzájemně
-            konkurovaly systémy firmy Microsoft (MS DOS), instalované na počítačích
-            IBM PC, a firmy Apple (Mac OS), která rozvinula myšlenky vývojářů společnosti Xerox a začala jako první
+            konkurovaly systémy firmy Microsoft (<a href="https://cs.wikipedia.org/wiki/MS-DOS">MS DOS</a>), instalované na počítačích
+            IBM PC, a firmy Apple (<a href="https://cs.wikipedia.org/wiki/MacOS">Mac OS</a>), která rozvinula myšlenky vývojářů společnosti <a href="https://cs.wikipedia.org/wiki/Xerox">Xerox</a> a začala jako první
             používat grafické uživatelské rozhraní. To
             se stalo také základem MS Windows, jenž hrál prim především na přelomu
             tisíciletí. V té době už získával stále větší popularitu volně šiřitelný systém
-            Linux, pojmenovaný podle svého tvůrce Linuse Torvaldse a staršího vzoru
+            Linux, pojmenovaný podle svého tvůrce <a href="https://cs.wikipedia.org/wiki/Linus_Torvalds">Linuse Torvaldse</a> a staršího vzoru
             UNIXu. Zatímco operační systémy Windows dominují především na osobních počítačích v domácnostech i
             kancelářích, různé linuxové distribuce
             jsou velmi často instalovány na síťových serverech.</p>
-            <figure>
-                <img src="https://pngimg.com/uploads/goofy/goofy_PNG28.png" alt="Ohjo" width="100px">
-                <figcaption></figcaption>
-            </figure>
-            <h2>Typy OS</h2>
+            <img src="../img/android.png" alt="Android" width="120"><img src="../img/apple.png" alt="Apple" width="150">
+            <h2 id="typy">Typy OS</h2>
         <p>Současné OS rozdělujeme nejčastěji podle typů zařízení, pro která jsou určeny. Existují systémy pro síťové
             servery (např. MS Windows 2012 Server, Linux, Unix),
             pro běžné osobní počítače - desktopy, notebooky, netbooky (např.
             MS Windows, Linux Ubuntu, OS X), pro mobilní zařízení (Android, Symbian,
-            Windows Phone, iOS) i speciální RTOS (Real-Time Operating System - systémy reálného času), které zajišťují
+            Windows Phone, iOS) i speciální <a href="https://cs.wikipedia.org/wiki/Opera%C4%8Dn%C3%AD_syst%C3%A9m_re%C3%A1ln%C3%A9ho_%C4%8Dasu">RTOS</a> (Real-Time Operating System - systémy reálného času), které zajišťují
             provoz „chytrých“ zařízení,
             jakými jsou robotické kamery využívané pro sportovní přenosy, měřící přístroje na orbitálních
             stanicích nebo jednotky pro řízení různých průmyslových procesů. Zatímco
             u desktopového systému je možné pozdržet dokončení některých operací a
             provádět paralelně jiné operace, v případě RTOS je nezbytné provádět operace bez prodlevy a s vysokou
             spolehlivostí v reálném čase.</p>
+            <p>.</p>
     </main>
     <footer>
-        <hr>
-        <p>&copy; <i>Ondřej Honus</i> - 2022</p>
+        <div class="copyright">
+            Copyright &copy; 2022 - Ondřej Honus
+        </div>
     </footer>
 
 </body>
